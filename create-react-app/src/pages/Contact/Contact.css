@@ -1,0 +1,102 @@
+.contact{
+    margin-left:160px;
+    margin-bottom:60px ;
+    padding-top: 50px ;
+    
+}
+.card0{
+    /* background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); */
+    /* background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%); */
+    box-shadow: 0px 4px 8px 0px black;
+    border-radius: 0px;
+
+}
+.card2{
+margin: 6px 40px;
+/* background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%); */
+}
+.card1 .image{
+    padding: 30px;
+    margin-top:30px ;
+    height: 100%;
+    width: 100%;
+  
+}
+.border-line{
+    border-right: 1px solid black;
+    margin-top: 15px;
+}
+.line{
+    height: 1px;
+    width: 45%;
+    background-color: black;
+    margin-top:10px ;
+}
+.or{
+    display: flex;
+    width: 10%;
+    font-weight: bold;
+}
+::placeholder{
+    color: black;
+    opacity: 1;
+    font-weight: 300;
+}
+.mb-3{
+    border-radius: 10px;
+    background-color: #E4E4E1;
+ background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+ 	background-blend-mode: normal, multiply;
+    color: #000;
+}
+input,
+textarea{
+    padding: 10px 12px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-top: 2px;
+    width: 100%;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+input:focus,
+textarea:focus{
+    box-shadow: none !important;
+    outline: 1px solid #138781 !important;
+    outline-width:0px ;
+}
+button:focus{
+    box-shadow: none;
+    outline-width: 0px;
+}
+.button{
+    background-color: #1e1e2c;
+    color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 10px;
+    width: 200px;
+}
+.button:hover{
+    background-color: #000;
+    color: white;
+}
+/* ======================== */
+@media (max-width: 600px) {
+    .contact {
+      margin: 0;
+      padding: 0;
+      margin-top: 50px;
+    }
+    .contact .card2 {
+      margin: 0;
+    }
+  
+    .contact .card2 h6 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
